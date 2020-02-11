@@ -148,7 +148,14 @@ public class Window extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {       
         // TODO add your handling code here:
     	try {
+    		int a, b;
+    		a = Integer.parseInt(jTextField1.getText());
+
+    		b = Integer.parseInt(jTextField2.getText());
     		
+    		calculator c = new calculator();
+//    		System.out.println(c.sub(a, b));
+    		jLabel1.setText("a + b = " + String.valueOf(c.add(a, b)));
     	}
     	catch(Exception e) {
     		System.out.println("Error");
@@ -175,7 +182,14 @@ public class Window extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
 try {
-    		
+	int a, b;
+	a = Integer.parseInt(jTextField1.getText());
+
+	b = Integer.parseInt(jTextField2.getText());
+	
+	calculator c = new calculator();
+//	System.out.println(c.sub(a, b));
+	jLabel1.setText("a / b = " + String.valueOf(c.div(a, b)));
     	}
     	catch(Exception e) {
     		System.out.println("Error");
@@ -185,7 +199,14 @@ try {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
 		try {
+			int a, b;
+    		a = Integer.parseInt(jTextField1.getText());
+
+    		b = Integer.parseInt(jTextField2.getText());
     		
+    		calculator c = new calculator();
+//    		System.out.println(c.sub(a, b));
+    		jLabel1.setText("a * b = " + String.valueOf(c.mul(a, b)));
     	}
     	catch(Exception e) {
     		System.out.println("Error");
