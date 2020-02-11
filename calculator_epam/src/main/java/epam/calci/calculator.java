@@ -7,7 +7,7 @@ public class calculator {
 	public calculator() {
 		// TODO Auto-generated constructor stub
 	}
-	
+//	hjbdjjheb
 	public int add(int a, int b) {
 		return (a+b);
 	}
